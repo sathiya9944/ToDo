@@ -3,7 +3,6 @@
 A simple full-stack **To-Do List App** built using **React (Vite)**, **Node.js**, **Express**, and **MongoDB**.  
 You can create, view, update, and delete tasks with a clean modern UI.
 
----
 
 ##  Features
 
@@ -24,7 +23,9 @@ Full CRUD backend API
 ##  Tech Stack
 
 **Frontend:** React (Vite), Axios, React Icons  
+
 **Backend:** Node.js, Express.js, Mongoose  
+
 **Database:** MongoDB / MongoDB Atlas  
 **Dev Tools:** Nodemon, dotenv, Git 
 
