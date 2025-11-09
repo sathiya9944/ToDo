@@ -5,18 +5,23 @@ You can create, view, update, and delete tasks with a clean modern UI.
 
 ---
 
-## 🚀 Features
+##  Features
 
 Add new tasks  
-Mark tasks as complete  
+
+Mark tasks as complete
+
 Delete tasks  
+
 MongoDB persistence  
-Responsive and minimal UI  
+
+Responsive and minimal UI 
+
 Full CRUD backend API  
 
----
 
-## 🛠️ Tech Stack
+
+##  Tech Stack
 
 **Frontend:** React (Vite), Axios, React Icons  
 **Backend:** Node.js, Express.js, Mongoose  
