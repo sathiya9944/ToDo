@@ -1,0 +1,51 @@
+.home {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create_form input {
+  width : 300px;  
+  padding : 10px;
+  border-bottom: 2px solid #000;
+  outline: none;
+
+}
+.create_form button {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding : 10px;
+} 
+  
+.task{
+  display : flex;
+  align-items : center;
+  justify-content : space-between;
+  background-color: #000;
+  color: white;
+  width : 360px;
+  height : 35px;
+  margin-top : 2px;
+  padding : 2px 5px 2px 5px; 
+
+}
+.checkbox{
+  display: flex;
+  align-items : center;
+}
+.checkbox{
+  margin-right : 5px;
+  font-size : 15px;
+}
+
+.task div span{
+  margin: 0px 5px 0px 5px;
+}
+.task div .icon{
+  cursor: pointer;
+}
+
+.line_through{
+  text-decoration: line-through;
+}
