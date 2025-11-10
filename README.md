@@ -1,5 +1,6 @@
 # ToDoApp — MERN Stack Project
 
+
 A simple full-stack **To-Do List App** built using **React (Vite)**, **Node.js**, **Express**, and **MongoDB**. 
 
 You can create, view, update, and delete tasks with a clean modern UI.
