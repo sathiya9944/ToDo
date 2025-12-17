@@ -6,7 +6,7 @@ import './App.css'
 function Create() {
   const [task,setTask]=React.useState()
   const handleAdd=()=>{
-    axios.post('http://localhost:3000/add',{task:task})
+    axios.post('https://todo-eb97.onrender.com/add',{task:task})
     .then(result=>{
       location.reload()
     })

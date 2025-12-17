@@ -8,20 +8,20 @@ function Home() {
   const [todos, setTodos] = useState([]);
 
   useEffect(() => {
-      axios.get("http://127.0.0.1:3000/get")
+      axios.get("https://todo-eb97.onrender.com/get")
       .then((res) => setTodos(res.data))
       .catch((err) => console.log(err))
   }, [])
 
   const handleEdit = (id) => {
-    axios.put("http://127.0.0.1:3000/update/" + id)
+    axios.put("https://todo-eb97.onrender.com/update/" + id)
       .then(result => {
         location.reload()
       })
       .catch((err) => console.log(err))
   }
   const handleDelete = (id) => {
-    axios.delete("http://127.0.0.1:3000/delete/" + id)
+    axios.delete("https://todo-eb97.onrender.com/delete/" + id)
       .then(result => {
         location.reload()
       })
