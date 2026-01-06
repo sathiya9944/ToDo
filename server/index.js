@@ -14,7 +14,7 @@ const MONGO_URI = process.env.MONGO_URI;
 mongoose.connect(MONGO_URI)
   .then(() => console.log(" Connected to MongoDB"))
   .catch(err => console.error(" MongoDB connection error:", err));
-// mongoose.connect('mongodb://127.0.0.1:27017/todoDB')
+
 
 app.get('/get', (req, res) => {
     ToDoModel.find()
