@@ -5,7 +5,14 @@ const cors = require('cors');
 const ToDoModel = require('./Models/Todo');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://todo-eb97.onrender.com"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type"],
+}));
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
